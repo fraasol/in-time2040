@@ -1,0 +1,113 @@
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: background var(--transition);
+}
+.card:hover {
+  background: var(--bg-card-hover);
+}
+.card.completed {
+  opacity: 0.6;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statusBadge {
+  font-family: var(--font-mono);
+  font-size: 8px;
+  letter-spacing: 0.15em;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+.statusBadge.active {
+  background: rgba(59, 111, 212, 0.15);
+  color: var(--accent-blue);
+}
+.statusBadge.completed {
+  background: rgba(58, 138, 92, 0.15);
+  color: var(--accent-green);
+}
+.statusBadge.pending {
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+}
+
+.grade {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-green);
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.institution {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.cfpaRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cfpaLabel {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+}
+
+.cfpaValue {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-cyan);
+}
+
+.progressBar {
+  height: 3px;
+  background: var(--bg-secondary);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--accent-blue);
+  border-radius: 2px;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.skill {
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  padding: 2px 6px;
+  border-radius: 2px;
+  border: 1px solid var(--border);
+}
+
+.dates {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: var(--text-muted);
+}

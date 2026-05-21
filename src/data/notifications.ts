@@ -1,0 +1,50 @@
+import { Notification } from '../types'
+
+export const notifications: Notification[] = [
+  {
+    id: 'notif-001',
+    from: 'IN-TIME AI',
+    title: 'Task deadline approaching',
+    body: 'You have 2 tasks due within 48h. Recommended: prioritize task-001 (Graphics Art). AI can pre-generate 30 of the 50 shots.',
+    time: '08:14',
+    read: false,
+    type: 'ai',
+  },
+  {
+    id: 'notif-002',
+    from: 'PoliMedia Institute',
+    title: 'Assessment window open',
+    body: 'Module 4 assessment is now accessible. Estimated completion time: 40 min with AI assistance.',
+    time: '07:55',
+    read: false,
+    type: 'institution',
+  },
+  {
+    id: 'notif-003',
+    from: 'Museo Nazionale del Cinema',
+    title: 'OUTATIME // Raw Human for Videomaking',
+    body: 'Masterclass for videomakers. Physical attendance. +3 CFPA credited. "Vivere davvero la vita dal vero." — Mar 16, 15:00 // Sala del Tempio, Mole Antonelliana.',
+    time: '06:30',
+    read: false,
+    type: 'museum',
+    special: true,
+  },
+  {
+    id: 'notif-004',
+    from: 'IN-TIME AI',
+    title: 'Weekly performance index',
+    body: 'Your cognitive load index is at 78/100. Consider scheduling a low-stimulation block. Recommendation: defer non-critical tasks by 24h.',
+    time: 'yesterday',
+    read: true,
+    type: 'ai',
+  },
+  {
+    id: 'notif-005',
+    from: 'NetWork Para-Academy',
+    title: 'New resource uploaded',
+    body: 'WCAG 3.0 audit toolkit v2.4 is now available in your course materials.',
+    time: 'yesterday',
+    read: true,
+    type: 'institution',
+  },
+]
