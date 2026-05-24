@@ -12,6 +12,14 @@ export default function Museum() {
         <div className={styles.pageSubtitle}>External institution event — physical attendance required</div>
       </div>
 
+      <div className={styles.manifestoWrapper}>
+        <img
+          src="/sito-transmedia/manifesto.png"
+          alt="Outatime manifesto"
+          className={styles.manifesto}
+        />
+      </div>
+
       <div className={styles.heroCard}>
         <div className={styles.heroTag}>MUSEO NAZIONALE DEL CINEMA // TORINO</div>
         <div className={styles.heroTitle}>Raw Human for Videomaking</div>
@@ -19,11 +27,11 @@ export default function Museum() {
 
         <div className={styles.metaGrid}>
           {[
-            { label: 'DATE', value: '2040.03.16 // SATURDAY' },
+            { label: 'DATE', value: '2040.06.06 // FRIDAY' },
             { label: 'TIME', value: '15:00 — 18:00' },
             { label: 'LOCATION', value: 'Sala del Tempio, Mole Antonelliana' },
             { label: 'CFPA VALUE', value: '+3 CFPA (internship track)' },
-            { label: 'AI ASSISTANCE', value: 'NOT PERMITTED during session' },
+            { label: 'AI ASSISTANCE', value: 'Not required — human-first approach encouraged' },
             { label: 'FORMAT', value: 'In-person masterclass // limited seats' },
           ].map((item) => (
             <div key={item.label} className={styles.metaItem}>
@@ -37,7 +45,7 @@ export default function Museum() {
       <div className={styles.descCard}>
         <div className={styles.descTitle}>ABOUT THIS MASTERCLASS</div>
         <p className={styles.descText}>
-          A practical session on human-first creative vision in videomaking. Participants will engage in three hands-on activities inside the museum's exhibition spaces — no AI scaffolding. The goal: to re-train attention, rediscover the power of intentional observation, and build connections with peers outside the optimised task-loop.
+          A practical session on human-first creative vision in videomaking. Participants will engage in three hands-on activities inside the museum's exhibition spaces. AI assistance is not required — the goal is to re-train attention, rediscover the power of intentional observation, and build connections with peers outside the optimised task-loop.
         </p>
         <p className={styles.descText}>
           The session is hosted by Museo Nazionale del Cinema staff and accredited as an internship activity within the para-academic framework. Verified physical attendance required for CFPA credit.

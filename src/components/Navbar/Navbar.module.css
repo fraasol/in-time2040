@@ -122,12 +122,15 @@
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  width: 320px;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  max-height: 70vh;
+  overflow-y: auto;
   background: var(--bg-card);
   border: 1px solid var(--border-accent);
   border-radius: var(--radius);
   z-index: 200;
-  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
 .notifHeader {
@@ -140,6 +143,9 @@
   font-size: 9px;
   letter-spacing: 0.15em;
   color: var(--text-muted);
+  position: sticky;
+  top: 0;
+  background: var(--bg-card);
 }
 
 .notifCount {
@@ -162,10 +168,10 @@
 .notifSpecial {
   border-left: 2px solid var(--accent-cyan);
   cursor: pointer;
-  background: rgba(79, 195, 212, 0.03);
+  background: rgba(26, 143, 160, 0.03);
 }
 .notifSpecial:hover {
-  background: rgba(79, 195, 212, 0.07);
+  background: rgba(26, 143, 160, 0.07);
 }
 
 .notifRead {
