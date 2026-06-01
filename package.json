@@ -2,7 +2,7 @@
   "name": "intime-2040",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://fraasol.github.io/intime-2040",
+  "homepage": "https://fraasol.github.io/in-time2040",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
