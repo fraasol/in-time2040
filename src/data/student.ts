@@ -6,7 +6,7 @@ export const student: Student = {
   surname: 'Greco',
   username: 'USR_313686',
   matricola: '313686',
-  dob: '2001.03.22',
+  dob: '2018.03.22',
   city: 'Torino',
   node: 'Torino Node // Piemonte District',
   email: 'D.greco@intime-network.edu',
