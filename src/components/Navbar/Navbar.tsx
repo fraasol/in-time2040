@@ -47,7 +47,7 @@ export default function Navbar({ onMenuToggle }: NavbarProps) {
       </div>
 
       <div className={styles.right}>
-        <div className={styles.clock}>{time} // 2040.03.15</div>
+        <div className={styles.clock}>{time} // 2040.06.06</div>
 
         <div className={styles.notifWrapper}>
           <button
