@@ -22,7 +22,7 @@ export default function Dashboard() {
           <GlitchText text="IN-TIME // DASHBOARD" className={styles.pageTitle} />
           <div className={styles.pageSubtitle}>Para-Academic Unified Portal — session active</div>
         </div>
-        <div className={styles.dateChip}>2040.03.15 // FRIDAY</div>
+        <div className={styles.dateChip}>2040.06.06 // FRIDAY</div>
       </div>
 
       <NotificationBanner />

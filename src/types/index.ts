@@ -44,3 +44,20 @@ export interface CVEntry {
   cfpa: number
   type: 'course' | 'workshop' | 'internship' | 'certification'
 }
+
+export interface Student {
+  id: string
+  name: string
+  surname: string
+  username: string
+  matricola: string
+  dob: string
+  city: string
+  node: string
+  email: string
+  instagram: string
+  bio: string
+  cfpaTotal: number
+  cognitiveLoad: number
+  status: string
+}

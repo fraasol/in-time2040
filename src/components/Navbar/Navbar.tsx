@@ -88,7 +88,7 @@ export default function Navbar({ onMenuToggle }: NavbarProps) {
           )}
         </div>
 
-        <div className={styles.userChip}>
+        <div className={styles.userChip} onClick={() => navigate('/student')} style={{ cursor: 'pointer' }}>
           <span className={styles.userDot} />
           <span>USR_313686</span>
         </div>

@@ -6,6 +6,8 @@ import Dashboard from './pages/Dashboard/Dashboard'
 import Courses from './pages/Courses/Courses'
 import CV from './pages/CV/CV'
 import Museum from './pages/Museum/Museum'
+import Student from './pages/Student/Student'
+import CourseDetail from './pages/CourseDetail/CourseDetail'
 import styles from './App.module.css'
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/courses/:id" element={<CourseDetail />} />
             <Route path="/cv" element={<CV />} />
             <Route path="/museum" element={<Museum />} />
+            <Route path="/student" element={<Student />} />
           </Routes>
         </main>
       </div>

@@ -14,7 +14,7 @@ export default function Museum() {
 
       <div className={styles.manifestoWrapper}>
         <img
-          src="/sito-transmedia/manifesto.png"
+          src="/manifesto.png"
           alt="Outatime manifesto"
           className={styles.manifesto}
         />
